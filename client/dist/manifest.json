@@ -31,11 +31,12 @@
       "type": "image/png"
     }
   ],
+  "id": "/",
   "name": "jate Text Editor",
   "short_name": "jate",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "./",
   "description": "PWA text editor application",
   "background_color": "#225ca3"
 }
