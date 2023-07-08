@@ -70,7 +70,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-transform-object-rest-spread'],
+              plugins: ['@babel/plugin-transform-object-rest-spread',{ useBuiltIns: true }],
             },
           },
          },
