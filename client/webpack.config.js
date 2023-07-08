@@ -11,30 +11,36 @@ module.exports = () => {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install.js'
+      install: './src/js/install.js',
     },
+    
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+
+      // generates html file and injects into our bundle
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'jate',
       }),
      
+      //Service worker
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
       
+      //Creates manifest.json
       new WebpackPwaManifest({
-        fingerprints: false, 
+        fingerprints: false,
         inject: true,
         name: 'jate Text Editor',
         short_name: 'jate',
         description: 'PWA text editor application',
         background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
         icons: [
@@ -45,15 +51,17 @@ module.exports = () => {
           },
         ],
       }),
+      
     ],
 
     module: {
+      // CSS
       rules: [
-        {
+         {
           test: /.css$/i,
           use: ['style-loader', 'css-loader'],
-        },
-        {
+         },
+         {
           test: /.m?js$/,
           exclude: /node_modules/,
           use: {
