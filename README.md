@@ -73,7 +73,7 @@ We would like to express our gratitude to the developers of the idb package for 
 
 ### Contact
 
-<https://user-images.githubusercontent.com/84477950/243474429-ab5f177d-0f73-41ba-b9ec-22e05087cec8.png>
+[![Avatar](https://user-images.githubusercontent.com/84477950/243474429-ab5f177d-0f73-41ba-b9ec-22e05087cec8.png)
 
 Carol Wargo-
 
