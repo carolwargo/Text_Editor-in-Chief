@@ -28,10 +28,10 @@ module.exports = () => {
      
       //Service worker
       new InjectManifest({
-        swSrc: './src/js/src-sw.js',
+        swSrc: './src/src-sw.js',
         swDest: 'src-sw.js',
       }),
-      
+
       //Creates manifest.json
       new WebpackPwaManifest({
         fingerprints: false,
