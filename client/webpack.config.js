@@ -25,10 +25,10 @@ module.exports = () => {
         template: './index.html',
         title: 'jate',
       }),
-     
-      //Service worker
+
+      // Injects our custom service worker
       new InjectManifest({
-        swSrc: './src/src-sw.js',
+        swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
 
@@ -36,7 +36,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'jate Text Editor',
+        name: 'jate text editor',
         short_name: 'jate',
         description: 'PWA text editor application',
         background_color: '#225ca3',
@@ -54,16 +54,18 @@ module.exports = () => {
       
     ],
 
+    
     module: {
-      // CSS
+      // CSS loaders
       rules: [
-         {
-          test: /.css$/i,
+        {
+          test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
-         },
-         {
-          test: /.m?js$/,
+        },
+        {
+          test: /\.m?js$/,
           exclude: /node_modules/,
+          // We use babel-loader in order to use ES6.
           use: {
             loader: 'babel-loader',
             options: {
