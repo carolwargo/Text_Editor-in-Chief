@@ -7,20 +7,19 @@
 Browser Text Editor-
 This is a browser-based text editor that allows you to create and edit text documents seamlessly. The application is designed as a single-page application, adhering to the Progressive Web App (PWA) criteria. It offers various data persistence techniques to ensure redundancy, even if certain options are not supported by the user's browser. Additionally, the text editor is capable of functioning offline.
 
-[![Demo](https://github.com/carolwargo/Text_Editor-in-Chief/blob/295675ac27d63aa71229a4276245a554604c90e3/Assets/Untitled_%20Jul%208,%202023%204_05%20PM.webm
-)
+[![Demo](https://github.com/carolwargo/Text_Editor-in-Chief/blob/295675ac27d63aa71229a4276245a554604c90e3/Assets/Untitled_%20Jul%208,%202023%204_05%20PM.webm)
 
-[![Heroku](https://git.heroku.com/vast-waters-69207.git)
+[![Heroku](https://vast-waters-69207-6f0f9cb2db54.herokuapp.com/)
 
 ## Table of Contents
 
-[Description](description)
-[Features](#features)
-[Getting-Started](#getting-started)
-[Installation](#installation)
-[License](#license)
-[Acknowledgment](#acknowledgments)
-[Contact](#contact)
+* [Description](description)
+* [Features](#features)
+* [Getting-Started](#getting-started)
+* [Installation](#installation)
+* [License](#license)
+* [Acknowledgment](#acknowledgments)
+* [Contact](#contact)
 
 ## Features
 
