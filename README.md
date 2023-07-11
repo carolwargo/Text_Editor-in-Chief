@@ -9,7 +9,7 @@ This is a browser-based text editor that allows you to create and edit text docu
 
 [![Demo](https://github.com/carolwargo/Text_Editor-in-Chief/blob/b1dc4d9981137ba478350373d615a89b7ce965ae/Assets/Screenshot.png)](https://github.com/carolwargo/Text_Editor-in-Chief/blob/295675ac27d63aa71229a4276245a554604c90e3/Assets/Untitled_%20Jul%208,%202023%204_05%20PM.webm)
 
-[Heroku](https://vast-waters-69207-6f0f9cb2db54.herokuapp.com/)
+[Deployed Heroku link](https://vast-waters-69207-6f0f9cb2db54.herokuapp.com/)
 
 ## Table of Contents
 
@@ -23,11 +23,11 @@ This is a browser-based text editor that allows you to create and edit text docu
 
 ## Features
 
-PWA Compatibility: The text editor is built as a single-page application, meeting the standards set by Progressive Web Apps. This ensures a smooth and responsive user experience.
+**PWA Compatibility** The text editor is built as a single-page application, meeting the standards set by Progressive Web Apps. This ensures a smooth and responsive user experience.
 
-Data Persistence: The application employs multiple data persistence techniques to guarantee redundancy. In case any of the options are not supported by the user's browser, alternate methods will be used to store and retrieve data.
+**Data Persistence** The application employs multiple data persistence techniques to guarantee redundancy. In case any of the options are not supported by the user's browser, alternate methods will be used to store and retrieve data.
 
-Offline Functionality: The text editor is designed to work offline, enabling users to create, view, and edit documents even without an internet connection.
+**Offline Functionality** The text editor is designed to work offline, enabling users to create, view, and edit documents even without an internet connection.
 
 ## Getting Started
 
